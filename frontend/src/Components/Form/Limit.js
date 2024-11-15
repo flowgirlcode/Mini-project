@@ -2,6 +2,8 @@ import { Button } from 'bootstrap';
 import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import styled from 'styled-components';
 const Limit = ({onBudgetChange}) => {
   const [budgetAmount, setBudgetAmount] = useState('');
